@@ -1,4 +1,3 @@
-// count the number of digits //
 import java.util.Scanner;
 
 class digits {
@@ -10,6 +9,7 @@ class digits {
 
         int count = countz(n);
         System.out.println("Number of digits : "+count);
+        input.close();
     }
     static int countz(int n)
     {
