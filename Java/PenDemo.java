@@ -4,7 +4,7 @@ class Pen{
     public String brand;
     public int amount;
 }
-public class PeN{
+public class PenDemo{
     public static void main(String[] args) {
 
         Pen pen1 = new Pen();
