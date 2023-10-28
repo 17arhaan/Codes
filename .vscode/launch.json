@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PeN",
+            "request": "launch",
+            "mainClass": "PeN",
+            "projectName": "VSCodes_d3e7f632"
+        },
+        {
+            "type": "java",
+            "name": "Pen",
+            "request": "launch",
+            "mainClass": "Pen",
+            "projectName": "VSCodes_d3e7f632"
+        },
+        {
+            "type": "java",
+            "name": "addition",
+            "request": "launch",
+            "mainClass": "addition",
+            "projectName": "VSCodes_d3e7f632"
+        },
+        {
+            "type": "java",
+            "name": "VehicleDemo",
+            "request": "launch",
+            "mainClass": "VehicleDemo",
+            "projectName": "VSCodes_d3e7f632"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "VSCodes_d3e7f632"
+        },
+        {
+            "type": "java",
+            "name": "mixer",
+            "request": "launch",
+            "mainClass": "mixer",
+            "projectName": "VSCodes_d3e7f632"
+        }
+    ]
+}
