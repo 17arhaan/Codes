@@ -1,0 +1,3 @@
+# Codes
+Nothing just abnormal codes.
+All my VS Code Codes here...
