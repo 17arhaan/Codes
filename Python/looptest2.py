@@ -1,5 +1,17 @@
-num1=int(input("enter a number : "))
-print(f"odd numbers :- \n")
-for numbers in range(1 , num1):
-    if(numbers%2==1):
-        print(f"{numbers}")
+#using for loop
+# rangez=int(input("Enter the range: "))
+# print(f"Odd Numbers till {rangez} :- ")
+
+# for i in range(1 , rangez):
+#     if ( i % 2 == 1):
+#         print(f"{i}")
+
+#using while loop
+
+rangez=int(input("Enter the range: "))
+print(f"Odd Numbers till {rangez} :- ")
+num = 0
+while( num <= rangez):
+    if ( num % 2 == 1) :
+        print(f"{num}")
+num += 1

@@ -1,7 +1,12 @@
-name = input("Enter your name: ")
+fname = input("Enter your first name: ")
+lname = input("Enter your last name: ")
+
+name = fname + lname
+
+print(f"full name : {name}")
 
 for character in name:
     print(character)
+print(name[::])
 
-print(name[0:6])
-
+print('arhaan' in 'arhaan girdhar')

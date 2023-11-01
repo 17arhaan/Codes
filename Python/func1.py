@@ -7,7 +7,7 @@ def main():
 def average(*numbers):
     sum = 0
     for i in numbers:
-        sum = sum + i
+        sum += i
     print("Average =",sum/len(numbers))
 
 if __name__ == "__main__":

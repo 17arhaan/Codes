@@ -1,14 +1,9 @@
-''' num=int(input("enter a number : "))
-i = 0
-while(i<num):
-    print(i)
-    i = i + 1 '''
-
-for i in range(11):
+end=int(input("Enter the range: "))
+for i in range(1 , end):
     if (i==5):
         print("this is the 5th iteration")
         continue    
-    if (i==10):
-        print("this is the 10th iteration ")
+    if (i==end-1):
+        print("this is the last iteration ")
         break
     print("5 x",i,"=",5*i)

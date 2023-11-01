@@ -1,4 +1,6 @@
 floattoint = int (53.78)
 stringtoint = int("239")
+stringtofloat = float("99.69")
 print(f"Float to int : \n {floattoint}")
 print(f"String to int : \n {stringtoint}")
+print(f"String to float : \n {stringtofloat}")
