@@ -46,7 +46,8 @@ import numpy as np
 
 def main():
     sequeal = []
-    sequeal = input("Enter the no. of students: ")
+    students = input("Enter the no. of students: ")
+    sequeal.append(students)
     given_dict = {}
     for students in sequeal:
         while True:
