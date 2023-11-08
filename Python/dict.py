@@ -6,5 +6,5 @@ car = {
 }
 print(car.keys()) 
 
-for key,value in car.items():
-    print(f"{key} ~~ {value}")
+# for key,value in car.items():
+#     print(f"{key} ~~ {value}")

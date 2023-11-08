@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int *ptr;
+    int *ptr,**qtr;
     *ptr = NULL;
-    printf("%p",*ptr);
+    **qtr = *ptr;
+    printf("%p",**qtr);
 }
