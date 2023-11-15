@@ -1,18 +1,19 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class constructorz {
+// class constructorzz {
         
-        Scanner input = new Scanner(System.in);
-        String name;
+//         String name;
         
-        public constructorz(String name){
+//         public constructorzz(){
+//                 this.name
+//         }
+// }
+// public class constructorz{
+//         public static void main(String[] args) {
+//                 Scanner input = new Scanner(System.in);
+//                 constructorzz namee = new constructorzz();;
+//                 System.out.println("Enter a name: ");
+//                 namee = input.next();
 
-            this.name = name;
-            System.out.println(name);
-            System.out.println("Enter your name: ");
-            name = input.next();
-        }
-        public static void main(String[] args) {
-                System.out.println("Hello");
-        }
-}
+//         }
+// }

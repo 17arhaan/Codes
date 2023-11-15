@@ -45,23 +45,19 @@ import numpy as np
 # print(frame)
 
 def main():
-    sequeal = []
-    students = input("Enter the no. of students: ")
-    sequeal.append(students)
-    given_dict = {}
-    for students in sequeal:
-        while True:
-            key = input("Enter the name (or press quit to exit) : ")
-            if ( key == 'quit'):
-                print("Exiting !!")
-                break
-            value = input("Enter the roll no : ")
-            given_dict[key] = value   
+    sequel = []
+    studentno = int(input("Enter the no. of students: "))
+    for i in range (1,studentno+1):
+        sequel.append(i)
+    given_dict1 = {}
+    for students in sequel:
+        key = input("Enter the name  : ")
+        value = input("Enter the roll no : ")
+        given_dict[key] = value   
     print("Entered Dataframe is :- \n",given_dict)
-    isDataFrame(given_dict,sequeal)
+    isDataFrame(given_dict,sequel)
 
 def isDataFrame(parameter,amount):
-
     frame = pd.DataFrame(parameter,index=amount)
     print(frame)
 
