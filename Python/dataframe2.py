@@ -1,21 +1,15 @@
 import numpy as np
 import pandas as pd 
 
-def main():
-    given_dict = {
-        'Name': {'Arhaan','Arhaan 2'}
-    }
-    frame = pd.DataFrame(given_dict)
-
-
-
-
-
-
-
-
-
-
-
-if __name__ == "__main__":
-    main()
+random_dict1 = {
+   'Name' : ['Arhaan','Arhaan','Arhaan'],
+   'R.No' : [16,17,18],
+}
+random_dict2 = {
+   'Name' : ['1','2','3'],
+}
+R_No = [1,2,3]
+frame1 = pd.DataFrame(random_dict1)+pd.DataFrame(random_dict2,index=R_No)
+frame = pd.DataFrame(random_dict1,index=R_No)
+print(frame1)
+print(frame.describe())
