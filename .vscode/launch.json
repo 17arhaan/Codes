@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NameEntry",
+      "request": "launch",
+      "mainClass": "NameEntry",
+      "projectName": "VSCodes_d3e7f632"
+    },
+    {
+      "type": "java",
       "name": "PeN",
       "request": "launch",
       "mainClass": "PeN",
@@ -63,4 +70,5 @@
       ]
     }
   ]
+  //"vmArgs" : "--module-path \"C:/Program Files (x86)/Java/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
 }
