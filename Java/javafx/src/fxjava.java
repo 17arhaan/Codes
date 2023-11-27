@@ -12,18 +12,18 @@ public class fxjava extends Application{
     @Override  
     public void start(Stage primaryStage) throws Exception {  
 
-        Button btn1=new Button("Say, Hello World");  
+        Button btn1=new Button("you are gay");  
         btn1.setOnAction(new EventHandler<ActionEvent>() {  
               
             @Override  
             public void handle(ActionEvent arg0) {    
-                System.out.println("hello world");  
+                System.out.println("you are gay");  
             }  
         });  
         StackPane root=new StackPane();  
         root.getChildren().add(btn1);  
         Scene scene=new Scene(root,600,400);      
-        primaryStage.setTitle("First JavaFX Application");  
+        primaryStage.setTitle("Nigga What ??");  
         primaryStage.setScene(scene);  
         primaryStage.show();  
     }  

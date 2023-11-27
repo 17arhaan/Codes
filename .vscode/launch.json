@@ -10,55 +10,6 @@
       "vmArgs": "--module-path \"C:\\Users\\arhaa\\Documents\\Codes\\VSCodes\\Java\\openjfx-21.0.1_windows-x64_bin-sdk\\javafx-sdk-21.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
     },
     {
-      "type": "java",
-      "name": "NameEntry",
-      "request": "launch",
-      "mainClass": "NameEntry",
-      "projectName": "VSCodes_d3e7f632",
-    },
-    {
-      "type": "java",
-      "name": "PeN",
-      "request": "launch",
-      "mainClass": "PeN",
-      "projectName": "VSCodes_d3e7f632"
-    },
-    {
-      "type": "java",
-      "name": "Pen",
-      "request": "launch",
-      "mainClass": "Pen",
-      "projectName": "VSCodes_d3e7f632"
-    },
-    {
-      "type": "java",
-      "name": "addition",
-      "request": "launch",
-      "mainClass": "addition",
-      "projectName": "VSCodes_d3e7f632"
-    },
-    {
-      "type": "java",
-      "name": "VehicleDemo",
-      "request": "launch",
-      "mainClass": "VehicleDemo",
-      "projectName": "VSCodes_d3e7f632"
-    },
-    {
-      "type": "java",
-      "name": "Prime",
-      "request": "launch",
-      "mainClass": "Prime",
-      "projectName": "VSCodes_d3e7f632"
-    },
-    {
-      "type": "java",
-      "name": "mixer",
-      "request": "launch",
-      "mainClass": "mixer",
-      "projectName": "VSCodes_d3e7f632"
-    },
-    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
