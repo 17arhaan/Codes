@@ -74,5 +74,6 @@
   "java.project.sourcePaths": [
     "Java",
     ".vscode/javafx programs"
-  ]
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 }
