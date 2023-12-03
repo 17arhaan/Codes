@@ -5,3 +5,4 @@
 int queue[MAX_SIZE];
 int front = -1;
 int rear = -1;
+
