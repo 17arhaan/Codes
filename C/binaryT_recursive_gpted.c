@@ -7,7 +7,7 @@ struct Node{
     struct Node*right;
 };
 
-struct Node* createNode(strint data) {
+struct Node* createNode(int data) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->data = data;
     newNode->left = NULL;

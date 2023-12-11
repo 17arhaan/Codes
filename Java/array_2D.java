@@ -11,15 +11,15 @@ public class array_2D {
         columns = input.nextInt();
         System.out.println("Enter elements:-\n");
 
-        for(int i=0;i<rows;i++){
-            for(int j =0;j<columns;j++){
+        for(int i=1;i<rows;i++){
+            for(int j =1;j<columns;j++){
                 arr[i][j] = input.nextLine();
             }
         }
 
-         for(int i=0;i<=rows;i++){
+         for(int i=1;i<rows;i++){
             System.out.print("\n");
-            for(int j =0;j<=columns;j++){
+            for(int j =1;j<columns;j++){
                 System.out.print(arr[i][j]);
                 System.out.print("\t");
             }
