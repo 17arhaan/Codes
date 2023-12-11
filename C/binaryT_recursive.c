@@ -1,125 +1,63 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-// struct Node
-// {
-//     int data;
-//     struct Node *right, *left;
-// } *parent = NULL;
-// struct Node *Create(){
-//     struct Node *t;
-//     int a;
-//     printf("Value for Node : ");
-//     scanf("%d",&a);
-//     if (a == -1){
-//         return NULL;
-//     }
-//     else{
-//         t = (struct Node*) malloc(sizeof(struct Node));
-//         t->data = a;
-//         printf("Data for Left of %d Node : ",t->data);
-//         t->left = Create();
-//         printf("Data for Right of %d Node : ",t->data);
-//         t->right = Create();
-//         return t;
-//     }
-// }
-// void InOrder(struct Node *root){
-//     if(root != NULL){
-//         InOrder(root->left);
-//         printf("%d ",root->data);
-//         InOrder(root->right);
-//     }
-// }
-// void PreOrder(struct Node *root){
-//     if(root != NULL){
-//         printf("%d ",root->data);
-//         PreOrder(root->left);
-//         PreOrder(root->right);
-//     }
-// }
-// void PostOrder(struct Node *root){
-//     if(root != NULL){
-//         PostOrder(root->left);
-//         PostOrder(root->right);
-//         printf("%d ",root->data);
-//     }
-// }
-// void Print(struct Node *root){
-//     printf("\nInOrder Traversal ------> \n");
-//     InOrder(root);
-//     printf("\nPreOrder Traversal ------> \n");
-//     PreOrder(root);
-//     printf("\nPostOrder Traversal -------> \n");
-//     PostOrder(root);
-// }
-// int main(){
-//     printf("Root Node (Enter -1 for NULL)\n");
-//     parent = Create();
-//     Print(parent);
-// return 0;
-// }
-
-struct Node {
+struct Node
+{
     int data;
     struct Node *right, *left;
-} *parent = NULL;
+};
+struct Node*root = NULL;
 
-struct Node *Create() {
+struct Node *Create(){
     struct Node *t;
     int a;
     printf("Value for Node : ");
-    scanf("%d", &a);
-    if (a == -1) {
+    scanf("%d",&a);
+    if (a == -1){
         return NULL;
-    } else {
-        t = (struct Node *)malloc(sizeof(struct Node));
+    }
+    else{
+        t = (struct Node*) malloc(sizeof(struct Node));
         t->data = a;
-        printf("Data for Left of %d Node : ", t->data);
+        printf("Data for Left of %d Node : ",t->data);
         t->left = Create();
-        printf("Data for Right of %d Node : ", t->data);
+        printf("Data for Right of %d Node : ",t->data);
         t->right = Create();
         return t;
     }
 }
-
-void InOrder(struct Node *root) {
-    if (root != NULL) {
+void InOrder(struct Node *root){
+    if(root != NULL){
         InOrder(root->left);
-        printf("%d ", root->data);
+        printf("%d ",root->data);
         InOrder(root->right);
     }
 }
-
-void PreOrder(struct Node *root) {
-    if (root != NULL) {
-        printf("%d ", root->data);
+void PreOrder(struct Node *root){
+    if(root != NULL){
+        printf("%d ",root->data);
         PreOrder(root->left);
         PreOrder(root->right);
     }
 }
-
-void PostOrder(struct Node *root) {
-    if (root != NULL) {
+void PostOrder(struct Node *root){
+    if(root != NULL){
         PostOrder(root->left);
         PostOrder(root->right);
-        printf("%d ", root->data);
+        printf("%d ",root->data);
     }
 }
-
-void Print(struct Node *root) {
+void Print(struct Node *root){
     printf("\nInOrder Traversal ------> \n");
     InOrder(root);
-    printf("\n\nPreOrder Traversal ------> \n");
+    printf("\nPreOrder Traversal ------> \n");
     PreOrder(root);
-    printf("\n\nPostOrder Traversal -------> \n");
+    printf("\nPostOrder Traversal -------> \n");
     PostOrder(root);
-    printf("\n");
 }
-
-int main() {
+int main(){
     printf("Root Node (Enter -1 for NULL)\n");
     parent = Create();
     Print(parent);
-    return 0;
+return 0;
 }

@@ -47,14 +47,14 @@ void Display() {
 
 int main() {
     int input, element;
+    printf("\n------ MENU ------\n");
+    printf("1. Push\n");
+    printf("2. Pop\n");
+    printf("3. Peek\n");
+    printf("4. Display\n");
+    printf("5. Exit\n");
 
     do {
-        printf("\n------ MENU ------\n");
-        printf("1. Push\n");
-        printf("2. Pop\n");
-        printf("3. Peek\n");
-        printf("4. Display\n");
-        printf("5. Exit\n");
 
         printf("Enter your choice: ");
         scanf("%d", &input);
@@ -63,7 +63,7 @@ int main() {
             case 1:
                 printf("Enter element to push: ");
                 scanf("%d", &element);
-                printf("%d element pushed. ",element);
+                printf("%d element pushed. \n",element);
                 push(element);
                 break;
 

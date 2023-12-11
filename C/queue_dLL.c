@@ -65,5 +65,5 @@ int main(){
             printf("Retry\n");
         }
     }while(ch != 4);
-//     return 0;
+    return 0;
 }
